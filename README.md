@@ -1,5 +1,8 @@
+[applogo](https://user-images.githubusercontent.com/58661798/134805336-0668c930-64b2-4233-a87a-e3e8ff7d70f2.jpeg)
+
 # E-Cake.lk
-### MURS Developers
+### MURS Developers!
+
 
 This is an App for online cake buying and selling.
 
