@@ -1,8 +1,5 @@
 # E-Cake.lk
-###MURS Developers
-
-MADD android app
-
+### MURS Developers
 
 This is an App for online cake buying and selling.
 
@@ -15,17 +12,17 @@ This is an App for online cake buying and selling.
 ### Team Members
 
 👤 Mayantha Karunanayake
-- GitHub: [@githubhandle]()
+- GitHub: [@githubhandle](https://github.com/KMSMKarunanayake)
 - Twitter: [@twitterhandle]()
 - LinkedIn: [LinkedIn]()
 
 👤 Udaya Ranasinghe
-- GitHub: [@githubhandle]()
+- GitHub: [@githubhandle](https://github.com/UdayaR92)
 - Twitter: [@twitterhandle]()
 - LinkedIn: [LinkedIn]()
 
 👤 Randimal Ranasinghe
-- GitHub: [@githubhandle]()
+- GitHub: [@githubhandle](http://linkedin.com/in/randimal-ranasinghe-8a284a167)
 - Twitter: [@twitterhandle]()
 - LinkedIn: [LinkedIn]()
 
