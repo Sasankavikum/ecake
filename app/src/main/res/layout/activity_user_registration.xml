@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back1"
+    tools:context=".AdminRegister">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Register With US"
+                android:textColor="@color/white"
+                android:textSize="32dp"
+                android:layout_marginBottom="50dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_register_name"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="12dp"
+                android:hint="Enter name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_person" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_register_email"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_email"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="12dp"
+                android:hint="Enter email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="15dp" />
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_register_pNumber"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="12dp"
+                android:hint="Contact number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_phone" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_register_password"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="12dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_password" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_register_conformPassword"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_conform_password"
+                android:drawablePadding="12dp"
+                android:hint="Conform Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_conform_password" />
+
+            <Button
+                android:id="@+id/user_register_button"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:width="45dp"
+                android:background="@drawable/button_background"
+                android:padding="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Create Account"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/user_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/textColorWhite"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:text="Login" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
