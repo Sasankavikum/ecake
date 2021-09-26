@@ -1,7 +1,5 @@
-
-[![Contributors][contributors-shield]][https://github.com/Sasankavikum/ecake/graphs/contributors]
-
-
+# E-Cake.lk Android App
+### MADD project 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
