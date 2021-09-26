@@ -44,7 +44,11 @@
         android:id="@+id/textView15"
         android:layout_width="299dp"
         android:layout_height="57dp"
+
+        android:text="Best place to hangouts♥Very nice cafe. Excellent cake and delicious️"
+
         android:text="Best place to hangouts Very nice cafe. Excellent cake and delicious️"
+
         android:textColor="#191616"
         android:textSize="18sp"
         android:textStyle="italic"
@@ -59,7 +63,11 @@
         android:id="@+id/textView10"
         android:layout_width="119dp"
         android:layout_height="25dp"
+
+        android:text="sathmaa"
+
         android:text="mayantha"
+
         android:textColor="#171111"
         android:textSize="18sp"
         android:textStyle="italic"
@@ -191,6 +199,7 @@
         android:id="@+id/textView9"
         android:layout_width="119dp"
         android:layout_height="25dp"
+        android:text="@string/ushiniiii"
         android:text="@string/sasanka"
         android:textColor="#292020"
         android:textSize="18sp"
@@ -241,8 +250,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
+
         android:textSize="15dp"
         android:textStyle="bold"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.973" />
@@ -254,7 +265,9 @@
         android:background="@color/colorBuT11"
         android:text="delete"
         android:textStyle="bold"
+
         android:textSize="15dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.839"

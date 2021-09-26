@@ -1,8 +1,4 @@
-
-package com.example.ecake;
-
 package com.example.cake;
-
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -10,19 +6,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
-public class DailogFragment_UserAccount extends androidx.fragment.app.DialogFragment {
+public class DialogFragment extends androidx.fragment.app.DialogFragment {
+    DatabaseReference databaseReference;
 
     private FirebaseAuth auth;
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -40,12 +32,20 @@ public class DailogFragment_UserAccount extends androidx.fragment.app.DialogFrag
                     public void onClick(DialogInterface dialogInterface, int i) {
 
 
-                        Intent a = new Intent(getContext(), Payment_update.class);
+                        auth = FirebaseAuth.getInstance();
+                        databaseReference_Payment=database.getReference().child("Payment").child(auth.getUid());
+                        databaseReference_Payment.removeValue();
+
+                        databaseReference = FirebaseDatabase.getInstance().getReference().child("Payment");
+                        databaseReference.child("User1").removeValue();
+
+
+                        Intent a = new Intent(getContext(), Payment.class);
                         startActivity(a);
+
 
                     }
                 });
         return builder.create();
     }
 }
-
