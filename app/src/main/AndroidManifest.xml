@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ecake">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cake">
 
     <application
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Ecake" />
+        android:theme="@style/Theme.Cake">
+        <activity android:name="com.example.cake.update_address_userAccount"></activity>
+        <activity android:name="com.example.cake.Payment_update" >
+
+        </activity>
+        <activity android:name="com.example.cake.UserRegistration" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cake.UserLogin" >
+
+        </activity>
+        <activity android:name="com.example.cake.UserHome" >
+
+        </activity>
+        <activity android:name="com.example.cake.AdminRegister" >
+
+        </activity>
+        <activity android:name="com.example.cake.user_profile" >
+
+        </activity>
+        <activity android:name="com.example.cake.MainActivity">
+
+        </activity>
+        <activity android:name="com.example.cake.delete_popup" />
+        <activity android:name="com.example.cake.purchaseSuccess" >
+
+        </activity>
+        <activity android:name="com.example.cake.Summary" >
+
+        </activity>
+        <activity android:name="com.example.cake.Payment" >
+
+        </activity>
+        <activity android:name="com.example.cake.editAddress" >
+
+        </activity>
+        <activity android:name="com.example.cake.Address" >
+
+        </activity>
+        <activity android:name="com.example.cake.AdminHome" >
+
+        </activity>
+        <activity android:name="com.example.cake.View" >
+
+        </activity>
+        <activity android:name="com.example.cake.feedback_update" >
+
+        </activity>
+        <!--        <activity android:name=".feedback" />-->
+    </application>
 
 </manifest>
