@@ -1,17 +1,11 @@
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![Contributors][contributors-shield]][https://github.com/Sasankavikum/ecake/graphs/contributors]
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpeg" alt="Logo" width="150" height="150">
 </p>
 
 
@@ -38,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/screenshot.jpeg" alt="LOgging Pag">
+<img src="images/screenshot.jpeg" alt="Logging Pag" class="center">
 
 E-Cake.lk is an online cake ordering platform and the application is built in order to facilitate the buying and selling of homemade cake items. There are many apps developed for transport, delivery of foods, and educational based. But none of these apps are centered on providing a real deeming introduction for the sale of local delicacies like cakes. The product being a main necessity at special events has a huge demand in the present market. However, the penetration of the specified food category is greatly diminished in the absence of such an application. General food delivery applications in the market arguably would not facilitate. The need for a special app with these requirements was not evident in the online stores and less innovative to the seller.
 
