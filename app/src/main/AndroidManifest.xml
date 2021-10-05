@@ -40,9 +40,6 @@
         <activity android:name="com.example.cake.UserHome" >
 
         </activity>
-        <activity android:name="com.example.cake.AdminRegister" >
-
-        </activity>
         <activity android:name="com.example.cake.user_profile" >
 
         </activity>
