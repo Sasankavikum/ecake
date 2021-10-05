@@ -17,11 +17,11 @@
         <activity android:name="com.example.cake.update_address_userAccount"></activity>
         <activity android:name="com.example.cake.Payment_update" >
 
-        </activity>
-        <activity android:name="com.example.cake.UserRegistration" >
+        </activity><![CDATA[
 
         android:theme="@style/Theme.Cake"
         tools:replace="android:appComponentFactory">
+        ]]>
         <activity android:name=".feedback_update"></activity>
         <activity android:name=".update_address_userAccount" />
         <activity android:name=".Payment_update"></activity>
@@ -34,16 +34,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.cake.UserLogin" >
-
-        </activity>
         <activity android:name="com.example.cake.UserHome" >
-
-        </activity>
-        <activity android:name="com.example.cake.user_profile" >
-
-        </activity>
-        <activity android:name="com.example.cake.MainActivity">
 
         </activity>
         <activity android:name="com.example.cake.delete_popup" />
