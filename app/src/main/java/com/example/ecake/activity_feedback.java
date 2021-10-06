@@ -1,8 +1,5 @@
 package com.example.ecake;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,16 +7,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.ecake.Registration.ProfileActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.FirebaseFirestore;
+
 
 import java.util.HashMap;
 import java.util.UUID;
 
-public class activity_feedback extends AppCompatActivity {
+public class activity_feedback<FirebaseFirestore> extends AppCompatActivity {
 
     //Define variables
     private EditText name,message;
@@ -38,7 +37,7 @@ public class activity_feedback extends AppCompatActivity {
 
 
 
-        db = FirebaseFirestore.getInstance();
+        //db = FirebaseFirestore.getInstance();
         //collecting feedAdapter class data to update
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null){
